@@ -1,4 +1,5 @@
 # Eyerpheus
-A collection of gaze-controlled virtual digital music instruments. Master thesis in Computer Engineering. University of Pavia (Italy).
+A collection of gaze-controlled virtual digital music instruments, including "Netytar". 
+Master thesis in Computer Engineering. Course of Computer Science and Multimedia. University of Pavia (Italy), 2018
 
-TO BE ADDED! COMING SOON.
+**TO BE ADDED! COMING SOON!**
