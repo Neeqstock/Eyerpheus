@@ -1,0 +1,273 @@
+﻿<Window x:Class="WPFeyerpheus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFeyerpheus"
+        xmlns:eyeX="clr-namespace:EyeXFramework.Wpf;assembly=EyeXFramework"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStyle="None" ResizeMode="NoResize"  
+        WindowStartupLocation="CenterScreen" WindowState="Maximized" Width="Auto" Height="Auto" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Backgrounds/DarkWood.png" TileMode="Tile"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="219*"/>
+            <ColumnDefinition Width="1147*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Border VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="20,60,10,0" Width="Auto" Height="Auto" BorderThickness="4" BorderBrush="White" Grid.Column="0">
+            <Border.Background>
+                <ImageBrush ImageSource="/Images/Backgrounds/LightWood.jpg" TileMode="Tile"/>
+            </Border.Background>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                    <Button x:Name="btnNetytarSelect" Foreground="White" Content="Netytar"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnNetytarSelect_Click" FontFamily="Magneto" FontSize="22" IsCancel="True" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="Images/Backgrounds/MidWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                </Border>
+                <Border Grid.Row="1" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                    <Button x:Name="btnWickiEyedenSelect" Foreground="White" Content="WickiEyeden"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnWickiEyedenSelect_Click" FontFamily="Magneto" FontSize="20" IsCancel="True" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="Images/Backgrounds/MidWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                </Border>
+                <ListBox x:Name="lstScaleChanger" Grid.Row="2" Grid.RowSpan="2" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,0,10,0" SelectionChanged="lstScaleChanger_SelectionChanged" Background="Black" Foreground="WhiteSmoke"/>
+                <Grid Grid.Row="4" Margin="5,1,5,1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Background="Black" Grid.Column="0" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <TextBlock x:Name="txtNote" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="60"></TextBlock>
+                    </Border>
+                    <Border Background="Black" Grid.Column="2" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <TextBlock x:Name="txtIsBlowing" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="_"/>
+                    </Border>
+                    <Border Background="Black" Grid.Column="1" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <TextBlock x:Name="txtNoteName" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="C">
+                        </TextBlock>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Row="6" Margin="5,1,5,1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Background="Black" Grid.Column="0" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnScroll" Foreground="White" Content="no"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnScroll_Click" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                    <Border Background="Black" Grid.Column="1" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnFlasher" Foreground="White" Content="~"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnFlasher_Click" FontFamily="Webdings" FontSize="30" IsCancel="True" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                    <Border Background="Black" Grid.Column="2" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnFFBTest" Foreground="White" Content="@"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnFFBTest_Click" FontFamily="Webdings" FontSize="30" IsCancel="True" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                </Grid>
+                <Grid Grid.Row="7" Margin="5,1,5,1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Background="Black" Grid.Column="0" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnMIDIchMinus" Foreground="White" Content="t"  Width="Auto" Height="Auto" Margin="0,1,1,0" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" Click="btnMIDIchMinus_Click" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                    <Border Background="Black" Grid.Column="1" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <TextBlock x:Name="lblMIDIch" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="ch1">
+                        </TextBlock>
+                    </Border>
+                    <Border Background="Black" Grid.Column="2" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnMIDIchPlus" Foreground="White" Content="u"  Width="Auto" Height="Auto" Margin="0,1,1,0" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" Click="btnMIDIchPlus_Click" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                    
+                </Grid>
+                <Grid Grid.Row="5" Margin="5,1,5,1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                        <ColumnDefinition Width = "1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Background="Black" Grid.Column="0" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnBpmDown" Foreground="White" Content="t"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnBpmDown_Click" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                    <Border Background="Black" Grid.Column="1" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <TextBlock x:Name="lblBpm" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="120">
+                        </TextBlock>
+                    </Border>
+                    <Border Background="Black" Grid.Column="2" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="60" Margin="1,1,1,1">
+                        <Button x:Name="btnBpmUp" Foreground="White" Content="u"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnBpmUp_Click" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                            </Button.Background>
+                        </Button>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Border>
+
+
+
+        <Border VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,60,20,0" Width="Auto" Height="Auto" BorderThickness="4" BorderBrush="White" Grid.Column="1">
+            <Border.Background>
+                <ImageBrush ImageSource="Images/Backgrounds/LightWood.jpg" TileMode="Tile"/>
+            </Border.Background>
+
+            <TabControl x:Name="tabSolo" SelectionChanged="tabSolo_SelectionChanged" Margin="-6,-6,6,6">
+                <TabItem x:Name="tabNetytar"  Header="Netytar" Visibility="Collapsed">
+                    <Grid>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="Images/Backgrounds/PanWood.png" TileMode="Tile"></ImageBrush>
+                        </Grid.Background>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="12*"/>
+                        </Grid.RowDefinitions>
+                        <ScrollViewer x:Name="scrlNetytar" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Grid.Row="0"></ScrollViewer>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name ="tabEyeFlute" Header="EyeFlute" Visibility="Collapsed">
+                    <Grid>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="Images/Backgrounds/LightWood.jpg" TileMode="Tile"/>
+                        </Grid.Background>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tabWickiEyeden"  Header="WickiEyeden" Visibility="Collapsed">
+                    <Grid>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="Images/Backgrounds/PanWood.png" TileMode="Tile"></ImageBrush>
+                        </Grid.Background>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="7*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <ScrollViewer x:Name="scrlWickiEyeden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Grid.Row="0"></ScrollViewer>
+                        <Grid x:Name="gridWickiEyeden" Grid.Row="1">
+                            <Grid.Background>
+                                <ImageBrush ImageSource="Images/Backgrounds/MidWood.png" TileMode="Tile"/>
+                            </Grid.Background>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width = "3*"/>
+                                <ColumnDefinition Width = "3*"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                                <ColumnDefinition Width = "80"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Background="Black" Grid.Column="10" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <TextBlock x:Name="txtWickiNote" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="60"></TextBlock>
+                            </Border>
+                            <Border Background="Black" Grid.Column="9" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <TextBlock x:Name="txtWickiIsBlowing" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="_">
+                                </TextBlock>
+                            </Border>
+                            <Border Background="Black" Grid.Column="11" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <TextBlock x:Name="txtWickiNoteName" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="C">
+                                </TextBlock>
+                            </Border>
+                            <Border Background="Black" Grid.Column="8" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <Button x:Name="btnWickiScroll" Foreground="White" Content="no"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnWickiScroll_Click" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" >
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+                            </Border>
+                            <!--Border Background="Black" Grid.Column="3" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <TextBlock x:Name="lblWickiBpm" Margin="0,10,0,0" Background="Black" Foreground="LightCoral" FontFamily="Digital-7 Italic" FontSize="35" TextAlignment="Center" Text="120">
+                                </TextBlock>
+                            </>
+                            <Border Background="Black" Grid.Column="5" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <Button x:Name="btnWickiFlasher" Foreground="White" Content="~"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnFlasher_Click" FontFamily="Webdings" FontSize="30" IsCancel="True" >
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+                            </Border>
+                                                        <Border Background="Black" Grid.Column="4" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <Button x:Name="btnWickiBpmUp" Foreground="White" Content="u"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnBpmUp_Click" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" >
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+                            </Border>
+                            <Border Background="Black" Grid.Column="2" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <Button x:Name="btnWickiBpmDown" Foreground="White" Content="t"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnBpmDown_Click" FontFamily="Wingdings 3" FontSize="30" IsCancel="True" >
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+                            </Border-->
+                            <Border Background="Black" Grid.Column="6" BorderThickness="2" BorderBrush="WhiteSmoke" Width="Auto" Height="Auto" Margin="10,10,10,10">
+                                <Button x:Name="btnWickiFFBTest" Foreground="White" Content="@"  Width="Auto" Height="Auto" Margin="0,1,1,0" Click="btnFFBTest_Click" FontFamily="Webdings" FontSize="30" IsCancel="True" >
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="Images/Backgrounds/DarkWood.png" TileMode="Tile" Stretch="None"></ImageBrush>
+                                    </Button.Background>
+                                </Button>
+                            </Border>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Border>
+
+        <Label x:Name="lblRhythm" Content="Settings" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" FontFamily="Magneto" FontSize="28" Foreground="White" Height="44" Width="162"/>
+        <Label x:Name="lblSolo" Content="Solo" HorizontalAlignment="Right" Margin="0,5,5,0" VerticalAlignment="Top" FontFamily="Magneto" FontSize="28" Foreground="White" Grid.Column="1" Height="44" Width="80"/>
+
+
+
+
+
+    </Grid>
+</Window>

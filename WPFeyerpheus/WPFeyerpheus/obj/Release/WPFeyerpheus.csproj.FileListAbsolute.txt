@@ -1,0 +1,5 @@
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Release\MainWindow.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Release\App.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Release\WPFeyerpheus_Content.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Release\WPFeyerpheus_MarkupCompile.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Release\WPFeyerpheus_MarkupCompile.lref

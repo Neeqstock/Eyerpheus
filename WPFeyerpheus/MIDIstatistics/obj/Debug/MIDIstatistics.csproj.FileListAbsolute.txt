@@ -1,0 +1,5 @@
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\MIDIstatistics\bin\Debug\MIDIstatistics.exe.config
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\MIDIstatistics\bin\Debug\MIDIstatistics.exe
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\MIDIstatistics\bin\Debug\MIDIstatistics.pdb
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\MIDIstatistics\obj\Debug\MIDIstatistics.exe
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\MIDIstatistics\obj\Debug\MIDIstatistics.pdb
