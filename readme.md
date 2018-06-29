@@ -4,10 +4,10 @@ This is the result of the work for my Master Thesis in Computer Engineering at "
 This project includes **Netytar**, to which the paper "_Playing music with the eyes through an isomorphic interface_" (presented at ETRA COGAIN 2018) was dedicated.
 
 ### Requisites
-- Windows operating system (tested on Windows 10. Not available for Linux :( still not supported by Tobii eyetrackers)
-- Tobii EyeX eyetracker (could work also with Tobii 4C. Never tested)
-- (Optional but recommended) A VST host with some good VST effects (included in the instructions)
-- (Optional) XboX 360 Gamepad Controller (for FFB effects)
+-	Windows operating system (tested on Windows 10. Not available for Linux :( still not supported by Tobii eyetrackers)
+-	Tobii EyeX eyetracker (could work also with Tobii 4C. Never tested)
+-	(Optional but recommended) A VST host with some good VST effects (included in the instructions)
+- 	(Optional) XboX 360 Gamepad Controller (for FFB effects)
 
 ### Instructions (read carefully!)
 1.	Clone this repository on your HD. You'll need every single file;
