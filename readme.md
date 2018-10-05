@@ -1,7 +1,10 @@
 ## The Eyerpheus Project
 
 This is the result of the work for my Master Thesis in Computer Engineering at "Università di Pavia", Italy.
-This project includes [**Netytar**](https://vision.unipv.it/research/netytar/) described in the paper [Davanzo, N., Dondi, P., Mosconi, M., & Porta, M. (2018). Playing Music with the Eyes Through an Isomorphic Interface](https://dl.acm.org/citation.cfm?id=3206350) presented at ETRA COGAIN '18. Warsaw, Poland, 14-17 Jun 2018. Please cite this article if you use this prject for your research. 
+Eyerpheus is a collection of design experiments about gaze controlled Virtual Digital Music Instruments (DMIs).
+
+Among them, the main one is [**Netytar**](https://vision.unipv.it/research/netytar/), a DMI completely designed for gaze interaction. Its interface consists of an array of colored dots connected by lines, and can be described as isomorphic (the geometrical shape of a sequence is transposition-independent).
+A complete description can be found in the paper [Davanzo, N., Dondi, P., Mosconi, M., & Porta, M. (2018). Playing Music with the Eyes Through an Isomorphic Interface](https://dl.acm.org/citation.cfm?id=3206350) presented at [ETRA COGAIN '18](http://cogain2018.cogain.org/), Warsaw, Poland, 14-17 Jun 2018. Please cite this article if you use this prject for your research. 
 
 ### Requisites
 -	Windows operating system (tested on Windows 10. Not available for Linux :( still not supported by Tobii eyetrackers)
