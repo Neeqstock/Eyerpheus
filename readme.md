@@ -1,7 +1,7 @@
 ## The Eyerpheus Project
 
 This is the result of the work for my Master Thesis in Computer Engineering at "Università di Pavia", Italy.
-This project includes **Netytar**, to which the paper "_Playing music with the eyes through an isomorphic interface_" (presented at ETRA COGAIN 2018) was dedicated.
+This project includes [**Netytar**](https://vision.unipv.it/research/netytar/) described in the paper [Davanzo, N., Dondi, P., Mosconi, M., & Porta, M. (2018). Playing Music with the Eyes Through an Isomorphic Interface]("https://dl.acm.org/citation.cfm?id=3206350") presented at ETRA COGAIN '18. Warsaw, Poland, 14-17 Jun 2018. Please cite this article if you use this prject for your research. 
 
 ### Requisites
 -	Windows operating system (tested on Windows 10. Not available for Linux :( still not supported by Tobii eyetrackers)
