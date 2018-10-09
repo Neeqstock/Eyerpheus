@@ -1,6 +1,0 @@
-C:\Users\Neeqstock\documents\visual studio 2015\Projects\Libraries\Tobii\source\EyeXFramework\bin\x86\Debug\EyeXFramework.dll
-C:\Users\Neeqstock\documents\visual studio 2015\Projects\Libraries\Tobii\source\EyeXFramework\bin\x86\Debug\EyeXFramework.pdb
-C:\Users\Neeqstock\documents\visual studio 2015\Projects\Libraries\Tobii\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
-C:\Users\Neeqstock\documents\visual studio 2015\Projects\Libraries\Tobii\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
-C:\Users\Neeqstock\documents\visual studio 2015\Projects\Libraries\Tobii\source\EyeXFramework\obj\x86\Debug\EyeXFramework.dll
-C:\Users\Neeqstock\documents\visual studio 2015\Projects\Libraries\Tobii\source\EyeXFramework\obj\x86\Debug\EyeXFramework.pdb
