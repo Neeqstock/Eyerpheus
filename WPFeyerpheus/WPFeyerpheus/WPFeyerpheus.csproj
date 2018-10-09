@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C55B7DF-3159-4AC6-A7A0-483F452BE648}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WPFeyerpheus</RootNamespace>
+    <AssemblyName>WPFeyerpheus</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EyeXFramework, Version=1.8.498.0, Culture=neutral, PublicKeyToken=70326046dcdce6cb, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\EyeXFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=1.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.1.8.0\lib\net35\NAudio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sanford.Multimedia.Midi, Version=6.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sanford.Multimedia.Midi.6.4.1\lib\net20\Sanford.Multimedia.Midi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Tobii.EyeX.Client.Net20, Version=1.8.498.0, Culture=neutral, PublicKeyToken=70326046dcdce6cb" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=1.4.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.1.4.14\lib\net\WpfAnimatedGif.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XInput.Wrapper, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\XInput.Wrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="XInputDotNetPure">
+      <HintPath>..\..\Libraries\XInputDotNet-master\XInputDotNet-x86-v2015.03-1\XInputDotNet-x86-v2015.03-1\XInputDotNetPure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chests\ExternalControllersChest.cs" />
+    <Compile Include="Chests\AudioChest.cs" />
+    <Compile Include="Chests\GraphicsChest.cs" />
+    <Compile Include="Chests\INoteAndPlayListener.cs" />
+    <Compile Include="Controllers\Audio\AggregatorListener.cs" />
+    <Compile Include="Controllers\Audio\MicController.cs" />
+    <Compile Include="Controllers\Audio\MicControllerListener.cs" />
+    <Compile Include="Controllers\Audio\SampleAggregator.cs" />
+    <Compile Include="Controllers\Color\ColorManager.cs" />
+    <Compile Include="Controllers\External\GamepadController.cs" />
+    <Compile Include="Controllers\Eyetracker\BlinkProcessor.cs" />
+    <Compile Include="Controllers\Eyetracker\EyePositionListener.cs" />
+    <Compile Include="Controllers\Eyetracker\Eyes.cs" />
+    <Compile Include="Chests\WpfEyeXChest.cs" />
+    <Compile Include="Controllers\Eyetracker\GazePointListener.cs" />
+    <Compile Include="Controllers\Eyetracker\IBlinkerListener.cs" />
+    <Compile Include="Controllers\Graphic\AutoScrollerCentered.cs" />
+    <Compile Include="Controllers\Graphic\AutoScroller.cs" />
+    <Compile Include="Controllers\Graphic\ChordHolderDots.cs" />
+    <Compile Include="Controllers\Graphic\IndependentLineFlashTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\Graphic\LineFlashTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\Graphic\Occluder.cs" />
+    <Compile Include="Controllers\Graphic\WickiEyeden\WickiEyedenButton.cs" />
+    <Compile Include="Controllers\Graphic\NetytarButton.cs" />
+    <Compile Include="Controllers\Graphic\NetytarDrawer.cs" />
+    <Compile Include="Controllers\Graphic\RhythmFlasher.cs" />
+    <Compile Include="Controllers\Graphic\WickiEyeden\WickiEyedenDrawer.cs" />
+    <Compile Include="Controllers\PlayModes\PauseWithOneEye.cs" />
+    <Compile Include="Controllers\PlayModes\RepeatNoteWithDouble.cs" />
+    <Compile Include="Controllers\PlayModes\WickiEyeden\IWickiEyedenPlayMode.cs" />
+    <Compile Include="Controllers\PlayModes\WickiEyeden\WickiEyedenPlayWithGaze.cs" />
+    <Compile Include="Controllers\Instruments\FingeredInstrument.cs" />
+    <Compile Include="Controllers\Instruments\BlownInstrument.cs" />
+    <Compile Include="Controllers\Instruments\Instrument.cs" />
+    <Compile Include="Chests\InstrumentChest.cs" />
+    <Compile Include="Controllers\Instruments\MusicMaster.cs" />
+    <Compile Include="Controllers\Instruments\Notes.cs" />
+    <Compile Include="Controllers\Music\TempoUtils.cs" />
+    <Compile Include="Controllers\PlayModes\ScaleBlinker.cs" />
+    <Compile Include="Controllers\Midi\IMidiController.cs" />
+    <Compile Include="Controllers\Midi\MidiControllerNAudio.cs" />
+    <Compile Include="Controllers\Midi\MidiControllerToolkit.cs" />
+    <Compile Include="Controllers\PlayModes\ChordHoldWithOneEye.cs" />
+    <Compile Include="Controllers\PlayModes\HoldWithOneEye.cs" />
+    <Compile Include="Controllers\PlayModes\INetytarPlayMode.cs" />
+    <Compile Include="Controllers\PlayModes\PlayWithOneEye.cs" />
+    <Compile Include="Controllers\PlayModes\SwitchWithBothEyes.cs" />
+    <Compile Include="Filters\ExpDecaying.cs" />
+    <Compile Include="Filters\IFilter.cs" />
+    <Compile Include="Filters\MASelectiveFilter.cs" />
+    <Compile Include="Filters\MovingAverageFilter.cs" />
+    <Compile Include="Filters\NoFilter.cs" />
+    <Compile Include="Filters\PriorityMeanFilter.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Backgrounds\DarkWood.png" />
+    <Resource Include="Images\Backgrounds\LightWood.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Backgrounds\MidWood.png" />
+    <Resource Include="Images\Backgrounds\PanWood.png" />
+    <Resource Include="Images\Sparks\source.gif" />
+    <Resource Include="Images\Sparks\spark1.gif" />
+    <Resource Include="Images\Icons\flash.png" />
+    <Content Include="Libraries\Tobii.EyeX.Client.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libraries\Tobii.EyeX.Client.Net20.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libraries\XInput.Wrapper.dll" />
+    <Content Include="Tobii.EyeX.Client.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tobii.EyeX.Client.Net20.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

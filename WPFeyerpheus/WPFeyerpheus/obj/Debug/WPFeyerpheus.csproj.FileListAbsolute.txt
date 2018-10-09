@@ -1,0 +1,142 @@
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.Net20.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe.config
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.pdb
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\NAudio.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\NAudio.xml
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.pdb
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.xml
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\MainWindow.g.cs
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\App.g.cs
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_Content.g.cs
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.cache
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.lref
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\MainWindow.baml
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.g.resources
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.Properties.Resources.resources
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.GenerateResource.Cache
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.exe
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.pdb
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csprojResolveAssemblyReference.cache
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Neeqstock\documents\visual studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\XInputDotNetPure.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects\WPFeyerpheus\WPFeyerpheus\bin\Debug\XInput.Wrapper.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe.config
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.exe
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.pdb
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.Net20.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.pdb
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\NAudio.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\XInput.Wrapper.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\XInputDotNetPure.dll
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\NAudio.xml
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.pdb
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.xml
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csprojResolveAssemblyReference.cache
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\MainWindow.g.cs
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\App.g.cs
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_Content.g.cs
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.cache
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.lref
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\MainWindow.baml
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.g.resources
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.Properties.Resources.resources
+C:\Users\Neeqstock\Documents\Visual Studio 2015\Projects_temp\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.GenerateResource.Cache
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe.config
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.exe
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.pdb
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.Net20.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WPFeyerpheus.pdb
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\NAudio.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WpfAnimatedGif.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\XInput.Wrapper.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\XInputDotNetPure.dll
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\NAudio.xml
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.pdb
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.xml
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WpfAnimatedGif.xml
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.csprojResolveAssemblyReference.cache
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\MainWindow.g.cs
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\App.g.cs
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus_Content.g.cs
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.cache
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.lref
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\MainWindow.baml
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.g.resources
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.Properties.Resources.resources
+C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.GenerateResource.Cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.Net20.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.Net20.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe.config
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WPFeyerpheus.pdb
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\NAudio.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WpfAnimatedGif.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\XInput.Wrapper.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\NAudio.xml
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.pdb
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.xml
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\bin\Debug\WpfAnimatedGif.xml
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.csprojAssemblyReference.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\MainWindow.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\App.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus_Content.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.lref
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\MainWindow.baml
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.g.resources
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.Properties.Resources.resources
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.GenerateResource.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.CoreCompileInputs.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.CopyComplete
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.exe
+C:\root_X542U\Frammenti software\Visual Studio Projects\WPFeyerpheus_12dic\WPFeyerpheus\obj\Debug\WPFeyerpheus.pdb
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Libraries\Tobii.EyeX.Client.Net20.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Tobii.EyeX.Client.Net20.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe.config
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.exe
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\WPFeyerpheus.pdb
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\NAudio.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\WpfAnimatedGif.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\XInput.Wrapper.dll
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\NAudio.xml
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.pdb
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\Sanford.Multimedia.Midi.xml
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\bin\Debug\WpfAnimatedGif.xml
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csprojAssemblyReference.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\MainWindow.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\App.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_Content.g.cs
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus_MarkupCompile.lref
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\MainWindow.baml
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.g.resources
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.Properties.Resources.resources
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.GenerateResource.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.CoreCompileInputs.cache
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.csproj.CopyComplete
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.exe
+C:\root_X542U\Frammenti software\Visual Studio Projects\Eyerpheus-master\WPFeyerpheus\WPFeyerpheus\obj\Debug\WPFeyerpheus.pdb
