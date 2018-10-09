@@ -30,6 +30,8 @@ namespace Eyerpheus.Chests
         }
         #endregion
 
+        private bool mouseEmulation = true;
+
         private WpfEyeXChest()
         {
             _eyeXHost = new WpfEyeXHost();
@@ -68,6 +70,8 @@ namespace Eyerpheus.Chests
                 gazeDelay = value;
             }
         }
+
+        public bool MouseEmulation { get => mouseEmulation; set => mouseEmulation = value; }
 
         #region Internal functions
         private void gazePointNext(object sender, GazePointEventArgs e)

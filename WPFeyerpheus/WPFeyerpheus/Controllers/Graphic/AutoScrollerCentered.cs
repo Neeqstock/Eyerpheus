@@ -9,11 +9,38 @@ using Eyerpheus.Controllers.Eyetracker;
 using System.Windows;
 using WPFeyerpheus.Configs;
 using Eyerpheus.Chests;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Windows.Input;
 
 namespace WPFeyerpheus.Controllers.Graphic
 {
     class AutoScrollerCentered : IGazePointListener
     {
+        [DllImport("user32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static extern bool GetCursorPos(ref Win32Point pt);
+
+        [StructLayout(LayoutKind.Sequential)]
+        private struct Win32Point
+        {
+            public Int32 X;
+            public Int32 Y;
+        };
+        public static Point GetMousePosition()
+        {
+            Win32Point w32Mouse = new Win32Point();
+            GetCursorPos(ref w32Mouse);
+            return new Point(w32Mouse.X, w32Mouse.Y);
+        }
+
+        // Gets the absolute mouse position, relative to screen
+        private Point GetMousePos()
+        {
+            return scrollViewer.PointToScreen(Mouse.GetPosition(scrollViewer));
+        }
+
         private int proportional;
         IFilter filter;
         ScrollViewer scrollViewer;
@@ -43,6 +70,30 @@ namespace WPFeyerpheus.Controllers.Graphic
             basePosition = scrollViewer.PointToScreen(new Point(0, 0));
 
             scrollCenter = new Point(scrollViewer.ActualWidth / 2, scrollViewer.ActualHeight / 2);
+
+            Timer timer = new Timer();
+            timer.Interval = 1;
+            timer.Tick += ListenMouse;
+            timer.Enabled = true;
+
+        }
+
+        private void ListenMouse(object sender, EventArgs e)
+        {
+            if (WpfEyeXChest.getChest().MouseEmulation && isOn)
+            {
+                lastGazePoint.X = GetMousePos().X - basePosition.X;
+                lastGazePoint.Y = GetMousePos().Y - basePosition.Y;
+
+                lastMean = lastGazePoint;
+
+                Scroll();
+            }
+        }
+
+        private void listenMouse()
+        {
+            
         }
 
         public void receiveGazePoint(double x, double y)
@@ -51,20 +102,25 @@ namespace WPFeyerpheus.Controllers.Graphic
             lastGazePoint.Y = (int)y - basePosition.Y;
 
             filter.push(lastGazePoint);
+
             lastMean = filter.getMean();
 
+            Scroll();
+        }
+
+        private void Scroll()
+        {
             if (isOn)
             {
                 Xdifference = (scrollCenter.X - lastMean.X);
                 Ydifference = (scrollCenter.Y - lastMean.Y);
-                if (Math.Abs(scrollCenter.Y - lastMean.Y) > radiusThreshold && Math.Abs(scrollCenter.X - lastMean.X) > radiusThreshold )
+                if (Math.Abs(scrollCenter.Y - lastMean.Y) > radiusThreshold && Math.Abs(scrollCenter.X - lastMean.X) > radiusThreshold)
                 {
                     scrollViewer.ScrollToHorizontalOffset(scrollViewer.HorizontalOffset - Math.Pow((Xdifference / proportional), 2) * Math.Sign(Xdifference));
                     scrollViewer.ScrollToVerticalOffset(scrollViewer.VerticalOffset - Math.Pow((Ydifference / proportional), 2) * Math.Sign(Ydifference));
                 }
-                
+
             }
-            
         }
 
         internal void switchOnOff()

@@ -37,8 +37,8 @@ namespace Eyerpheus.Controllers.Graphic
             occluder = new Rectangle();
             occluder.Stroke = Brushes.Transparent;
             occluder.Fill = Brushes.Transparent;
-            occluder.Stroke = new SolidColorBrush(Color.FromArgb(60, 0, 0, 0));
-            occluder.Fill = new SolidColorBrush(Color.FromArgb(60, 0, 0, 0));
+            occluder.Stroke = new SolidColorBrush(Color.FromArgb(40, 0, 0, 0));
+            occluder.Fill = new SolidColorBrush(Color.FromArgb(40, 0, 0, 0));
             occluder.StrokeThickness = 1;
             occluder.HorizontalAlignment = HorizontalAlignment.Left;
             occluder.VerticalAlignment = VerticalAlignment.Center;
@@ -49,6 +49,17 @@ namespace Eyerpheus.Controllers.Graphic
             Behavior.SetGazeAware(Occluder, true);
             Behavior.SetGazeAwareDelay(Occluder, WpfEyeXChest.getChest().GazeDelay);
             Behavior.AddHasGazeChangedHandler(Occluder, OnGaze);
+
+            if (WpfEyeXChest.getChest().MouseEmulation)
+            {
+                Occluder.MouseEnter += Occluder_MouseEnter;
+            }
+            
+        }
+
+        private void Occluder_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            NetytarDrawer.getDrawer().netytarButton_OnGaze(this);
         }
 
         public Line L_p1

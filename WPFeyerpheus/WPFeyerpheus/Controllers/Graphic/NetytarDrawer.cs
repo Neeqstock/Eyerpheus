@@ -136,7 +136,7 @@ namespace WPFeyerpheus.Controllers.Graphic
                     Canvas.SetTop(netytarButtons[row, col].Occluder, Y - occluderOffset);
 
                     Panel.SetZIndex(netytarButtons[row, col], 3);
-                    Panel.SetZIndex(netytarButtons[row, col].Occluder, 1);
+                    Panel.SetZIndex(netytarButtons[row, col].Occluder, 2000);
                     canvas.Children.Add(netytarButtons[row, col]);
                     canvas.Children.Add(netytarButtons[row, col].Occluder);
 
@@ -454,7 +454,7 @@ namespace WPFeyerpheus.Controllers.Graphic
 
                 BitmapImage bitImage = new BitmapImage();
                 bitImage.BeginInit();
-                bitImage.UriSource = new Uri(@"C:\Users\NicolaDavanzo\Desktop\Eyerpheus package\Visual Studio Project\Projects\WPFeyerpheus_12dic\WPFeyerpheus\Images\Sparks\Spark3.gif");
+                bitImage.UriSource = new Uri(@"C:\Spark3.gif");
                 bitImage.EndInit();
                 ImageBehavior.SetAnimatedSource(image, bitImage);
                 ImageBehavior.SetRepeatBehavior(image, new RepeatBehavior(1));
