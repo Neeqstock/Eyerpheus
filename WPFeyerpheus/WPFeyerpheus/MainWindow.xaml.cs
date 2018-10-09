@@ -38,9 +38,19 @@ namespace WPFeyerpheus
 
         private ChordHolderDots chordHolderDots;
 
+        private bool showCursor = true;
+
         public MainWindow()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
 
             AddScaleListItems();
 
@@ -117,6 +127,19 @@ namespace WPFeyerpheus
             if(e.Key == Key.S && !e.IsRepeat)
             {
                 InstrumentChest.getChest().Instrument.processStartPlaying();
+            }
+
+            if (e.Key == Key.M && !e.IsRepeat)
+            {
+                showCursor = !showCursor;
+                if (!showCursor)
+                {
+                    Cursor = Cursors.None;
+                }
+                else
+                {
+                    Cursor = Cursors.Arrow;
+                }
             }
 
             if (e.Key == Key.D && !e.IsRepeat)

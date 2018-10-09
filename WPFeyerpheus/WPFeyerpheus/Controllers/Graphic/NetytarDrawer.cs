@@ -62,7 +62,7 @@ namespace WPFeyerpheus.Controllers.Graphic
         private int buttonHeight = 13;
         private int buttonWidth = 13;
         private NetytarButton checkedButton;
-        private int occluderOffset = 10;
+        private int occluderOffset = 50;
 
         private List<Line> drawnLines = new List<Line>();
         private List<Ellipse> drawnEllipses = new List<Ellipse>();
@@ -419,6 +419,7 @@ namespace WPFeyerpheus.Controllers.Graphic
 
                 InstrumentChest.getChest().Instrument.setNote(checkedButton.Note);
                 GraphicsChest.getChest().NetytarWatched = new Point(Canvas.GetLeft(checkedButton), Canvas.GetTop(checkedButton));
+                checkedButton.IsChecked = true;
 
                 flashSpark();
 
@@ -454,7 +455,7 @@ namespace WPFeyerpheus.Controllers.Graphic
 
                 BitmapImage bitImage = new BitmapImage();
                 bitImage.BeginInit();
-                bitImage.UriSource = new Uri(@"C:\Spark3.gif");
+                bitImage.UriSource = new Uri(Environment.CurrentDirectory + @"\Images\Sparks\spark3.gif");
                 bitImage.EndInit();
                 ImageBehavior.SetAnimatedSource(image, bitImage);
                 ImageBehavior.SetRepeatBehavior(image, new RepeatBehavior(1));

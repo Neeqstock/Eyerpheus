@@ -45,7 +45,7 @@ namespace WPFeyerpheus.Chests
         private IMidiController midiController;
         public IMidiController MidiController { get { return midiController; } set { midiController = value; } }
 
-        public int MidiOutputChannel { get => midiOutputChannel; set => midiOutputChannel = value; }
+        public int MidiOutputChannel { get { return midiOutputChannel; } set { midiOutputChannel = value; } }
 
         private int midiOutputChannel = 1;
         public int midiChannelMin = 1;

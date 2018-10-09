@@ -13,7 +13,7 @@ namespace Eyerpheus
 {
     class MidiControllerNAudio : IMidiController
     {
-        private int outDeviceID = 1;
+        private int outDeviceID = 0;
 
         private MidiOut midiOut;
 

@@ -71,7 +71,7 @@ namespace Eyerpheus.Chests
             }
         }
 
-        public bool MouseEmulation { get => mouseEmulation; set => mouseEmulation = value; }
+        public bool MouseEmulation { get { return mouseEmulation; } set { mouseEmulation = value; } }
 
         #region Internal functions
         private void gazePointNext(object sender, GazePointEventArgs e)
