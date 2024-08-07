@@ -1,5 +1,7 @@
 ## The Eyerpheus Project
 
+DEPRECATED - Moved to (https://github.com/LIMUNIMI/Netytar)[https://github.com/LIMUNIMI/Netytar]
+
 This is the result of the work for my Master Thesis in Computer Engineering at "Università di Pavia", Italy.
 Eyerpheus is a collection of design experiments about gaze controlled Virtual Digital Music Instruments (DMIs).
 
